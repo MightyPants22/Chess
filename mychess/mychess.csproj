@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86DD9B46-0B5F-43FB-9838-9553799D3844}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mychess</RootNamespace>
+    <AssemblyName>mychess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClientServer.cs" />
+    <Compile Include="Bishop.cs" />
+    <Compile Include="ChessField.cs" />
+    <Compile Include="ClientThread.cs" />
+    <Compile Include="DiagMovePolitics.cs" />
+    <Compile Include="Figure.cs" />
+    <Compile Include="FigureTypes.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseFigureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseFigureForm.Designer.cs">
+      <DependentUpon>ChooseFigureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameType.cs" />
+    <Compile Include="InvalidPositionException.cs" />
+    <Compile Include="RulesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RulesForm.Designer.cs">
+      <DependentUpon>RulesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerAddressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerAddressDialog.Designer.cs">
+      <DependentUpon>ServerAddressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerBannerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerBannerForm.Designer.cs">
+      <DependentUpon>ServerBannerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerThread.cs" />
+    <Compile Include="StatisticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticForm.Designer.cs">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="HorizontalMovePolitics.cs" />
+    <Compile Include="King.cs" />
+    <Compile Include="Knight.cs" />
+    <Compile Include="KnightMovePolitics.cs" />
+    <Compile Include="MovePolitics.cs" />
+    <Compile Include="MyEnum.cs" />
+    <Compile Include="MyList.cs" />
+    <Compile Include="Pawn.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="VerticalMovePolitic.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queen.cs" />
+    <Compile Include="Rook.cs" />
+    <Compile Include="Side.cs" />
+    <EmbeddedResource Include="ChooseFigureForm.resx">
+      <DependentUpon>ChooseFigureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RulesForm.resx">
+      <DependentUpon>RulesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerAddressDialog.resx">
+      <DependentUpon>ServerAddressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerBannerForm.resx">
+      <DependentUpon>ServerBannerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticForm.resx">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

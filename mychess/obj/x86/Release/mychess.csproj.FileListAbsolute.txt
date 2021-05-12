@@ -1,0 +1,15 @@
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\bin\Release\mychess.exe
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\bin\Release\mychess.pdb
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.ChooseFigureForm.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.Form1.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.RulesForm.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.ServerAddressDialog.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.ServerBannerForm.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.StatisticForm.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.View.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.Form2.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.Properties.Resources.resources
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.csproj.GenerateResource.Cache
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.csproj.CoreCompileInputs.cache
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.exe
+C:\Users\Shiro\Desktop\chess-master\chess-master\mychess\obj\x86\Release\mychess.pdb

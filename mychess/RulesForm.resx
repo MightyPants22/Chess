@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Шахматы - настольная логическая игра со специальными фигурами на 64-клеточной доске для двух соперников, сочетающая в себе элементы искусства (в части шахматной композиции), науки и спорта. Название берёт начало из персидского языка: шах и мат, что значит король (шах) умер (мат).
+В шахматы могут играть также группы игроков, друг против друга или против одного игрока; такие группы обычно именуются консультантами. Игра подчиняется определённым правилам, которые дополняются правилами ФИДЕ при проведении турниров. Игра по переписке, по телефону, в Интернете регламентируется дополнительными правилами. Варианты шахмат имеют другие правила (с теми же фигурами и доской), а в шахматной композиции составитель может менять размеры доски, вводить новые фигуры, изменять правила хода и др. В математике изучаются различные аспекты шахматной игры (например, классические «Задача о ходе коня» и «Задача о восьми ферзях»), в том числе с помощью компьютерного моделирования.
+Игра происходит на доске, поделенной на равные квадратные клетки, или поля. Размер доски - 8х8 клеток. Вертикальные ряды полей (вертикали) обозначаются латинскими буквами от a до h слева направо, горизонтальные ряды (горизонтали) - цифрами от 1 до 8 снизу вверх; каждое поле обозначается сочетанием соответствующих буквы и цифры. Поля раскрашены в тёмный и светлый цвета (и называются, соответственно, чёрными и белыми) так, что соседние по вертикали и горизонтали поля раскрашены в разные цвета. Доска располагается так, чтобы ближнее угловое поле справа от игрока было белым (для белых это поле h1, для черных - поле а8).
+У игроков в начале игры имеется по одинаковому набору фигур. Фигуры одного из игроков условно называются «белыми», другого - «чёрными». Белые фигуры окрашены в светлый цвет, чёрные в тёмный. Сами игроки называются «белые» и «чёрные» по цвету своих фигур.
+В каждый комплект фигур входят: король , ферзь , две ладьи , два слона , два коня  и восемь пешек . В начальной позиции фигуры обеих сторон размещаются так, как показано на диаграмме. Белые занимают первую и вторую горизонтали, чёрные - седьмую и восьмую. Пешки расположены на второй и седьмой горизонталях соответственно.
+
+
+Шахматные фигуры, слева направо: король, ладья, ферзь, пешка, конь, слон
+
+Ходы
+
+Игра заключается в том, что игроки поочерёдно делают ходы. Первый ход делают белые. За исключением взятия на проходе и рокировки, описанных ниже, ход заключается в том, что игрок перемещает одну из своих фигур на другое поле по следующим правилам:
+Фигуры, кроме коня, во время хода считаются передвигающимися по прямой линии в плоскости доски, то есть «проходящими» все поля между начальным и конечным, поэтому все эти поля должны быть свободны. Если на пути фигуры находится другая фигура, то переместить фигуру на поле за ней невозможно. Исключением является ход коня (см. ниже).
+Ход на поле, занятое своей фигурой, невозможен.
+При ходе на поле, занятое чужой фигурой, она снимается с доски (взятие).
+Король ходит на расстояние 1 по вертикали, горизонтали или диагонали.
+Ферзь ходит на любое расстояние по вертикали, горизонтали или диагонали.
+Ладья ходит на любое расстояние по вертикали или горизонтали.
+Слон ходит на любое расстояние по диагонали.
+Конь ходит на поле, находящееся на расстоянии 2 по вертикали и 1 по горизонтали или 1 по вертикали и 2 по горизонтали от текущего положения. В отличие от всех остальных шахматных фигур, ход коня делается вне плоскости доски, то есть конь непосредственно перемещается («перепрыгивает») с начального поля на конечное и никакие фигуры, стоящие на других полях, ходу коня помешать не могут. В частности, конь может ходить на поле, даже если оно полностью окружено своими или чужими фигурами.
+Пешка ходит со взятием по диагонали на одно поле вперёд-вправо или вперёд-влево, а без взятия - по вертикали на одно поле вперёд. Если пешка в данной партии ещё не делала ходов, она может сделать ход без взятия на два поля вперёд. Направлением «вперёд» называется направление к восьмой горизонтали для белых или к первой для чёрных. Когда пешка ходит на последнюю горизонталь (для белых - на восьмую, для чёрных - на первую), ходящий должен заменить её на любую другую фигуру того же цвета, кроме короля (прохождение пешки). Превращение пешки происходит на том же ходе, на котором она перемещается на последнюю горизонталь. Таким образом, если, например, превращённая из пешки фигура угрожает королю противника, то этот король в результате хода пешкой на последнюю горизонталь немедленно оказывается под шахом.</value>
+  </data>
+</root>
